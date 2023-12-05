@@ -1,7 +1,7 @@
-<h3>1- Création des Traits <h3/>
+<h3>1- Création des Traits </h3>
 <p>La création des traits StripeTrait et PaypalTrait qui contiennent les fonctions stripePaymentProcess, stripeGetPayment, paypalPaymentProcess et paypalGetPayment. Ces traits sont créés dans le répertoire app/Traits.</p>
 
-<h3>2- Création de la Classe de Paiement <h3/>
+<h3>2- Création de la Classe de Paiement </h3>
 <p>Créer une classe de paiement PaymentProcessor qui utilise les traits StripeTrait et PaypalTrait.</p>
 <p>La classe PaymentProcessor implémente deux méthodes "processPayment" et "getPaymentDetails" et utilise les deux traits précédents</p>
 <p>la méthode publique appelée processPayment prend quatre paramètres en entrée : $provider, $amount, $currency, et $cardNumber.
